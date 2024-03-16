@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self';">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decision Maker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Decision Maker</h1>
+  </header>
+  <main>
+    <form id="choices-form">
+      <input type="text" id="choices" name="choices" placeholder="Enter your choices separated by comma">
+      <button type="submit">Submit</button>
+    </form>
+    <div id="output"></div>
+  </main>
+  <footer>
+    <p>All outputs are randomly picked based on the user's list of choices.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
